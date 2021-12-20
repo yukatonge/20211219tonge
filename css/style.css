@@ -1,0 +1,45 @@
+.header__parent{
+  width: 1400px;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  position: relative;
+}
+.header__child-ttl{
+  font-size: 25px;
+  color:darkblue;
+}
+ul{
+  list-style: none;
+}
+li{
+  display: inline-block;
+  color: darkblue;
+  font-weight: bolder;
+}
+.content__parent{
+  width: 1400px;
+  position: relative;
+  display: flex;
+}
+.content__img{
+  margin: 0 0 0 auto;
+  display: block;
+  width: 50%;
+  z-index: 1;
+}
+.content__ttl{
+  position: absolute;
+  top: 60%;
+  left: 0%;
+  font-size: 70px;
+  font-weight: lighter;
+}
+.content__box{
+  position: absolute;
+  width: 80%;
+  height: 30%;
+  background:darkblue;
+  top: 90%;
+  left: 0%;
+}
