@@ -1,9 +1,10 @@
 .header__parent{
   width: 1400px;
   display: flex;
-  padding: 20px;
   justify-content: space-between;
   position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .header__child-ttl{
   font-size: 25px;
@@ -18,7 +19,7 @@ li{
   font-weight: bolder;
 }
 .content__parent{
-  width: 1400px;
+  width: 1440px;
   position: relative;
   display: flex;
 }
